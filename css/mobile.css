@@ -1,1 +1,8 @@
 /*TELEFON BOY İÇİN GEÇERLİ OLACAK OLAN STİLLER*/
+#navbar{
+    flex-direction: column;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    overflow: hidden;        /*taşma engellendi*/
+    height: 85px;
+}
