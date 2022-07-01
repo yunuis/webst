@@ -9,6 +9,7 @@ a{
 html{
     font-family: "Nunito",sans-serif;
 }
+/* NAVBAR SECTION */
 #navbar{
     color: #fff;
     display:flex ;
@@ -28,4 +29,25 @@ html{
 #navbar ul li a:hover{
     background-color:#b57135;
     border-radius: 7px;
+}
+/* HOME SECTION */
+#home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    border-bottom: 1px solid grey;
+}
+#home img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 100%;
+}
+#home .name h2{
+    margin-bottom: 0.75rem;
+}
+#home .name p{
+    opacity: 0.7;
+    font-style: italic;
 }
