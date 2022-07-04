@@ -67,6 +67,57 @@ html{
     padding: 0.5rem;
 }
 #training .items .item:hover{
-    color: #dcc6a0;
-    
+    color: #dcc6a0;   
+}
+/* COURSES */
+#courses{
+    color: black;
+    padding: 1rem;
+}
+.courses{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    align-items: center;
+}
+.courses .course{
+    display: flex;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.courses .course .course-image{
+    margin-right: 0.5rem;
+    position: relative;
+}
+.courses .course .course-image img{
+     border-radius: 10px;
+}
+.courses .course .course-image span{
+    background-color: #f9160ae3;
+    color: black;
+    padding: 0.25rem;
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.courses .course .course-info .title{
+    letter-spacing: 1.2px;
+    font-weight: 900;
+    margin-bottom: 0.5rem;
+}
+.courses .course .course-info .description{
+    letter-spacing: 1.2px;
+    margin-bottom: 0.5rem;
+    opacity: 0.6;
+}
+.courses .course .course-info .instructor{
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+    opacity: 0.6;
+}
+.courses .course .course-info .rating{
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+    opacity: 0.6;
 }
