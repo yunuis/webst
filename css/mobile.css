@@ -6,3 +6,9 @@
     overflow: hidden;        /*taşma engellendi*/
     height: 85px;
 }
+#training .items{
+    flex-direction: column;
+}
+#training .items .item{
+    width: 100%;
+}
